@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*==================css reset==================*/
+body, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, ol, dl, dt, dd, input, figure, figcaption {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol, figure, figcaption {
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: 0;
+}
+
+input {
+  outline: none;
+}
+
+header, footer, nav, section, main, article, figure, aside, figcaption {
+  display: block;
+}
+
+body {
+  font-size: 12px;
+  font-family: "微软雅黑";
+  color: #222222;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #e13a68;
+  cursor: pointer;
+}
+
+/*====================css public================*/
+.w {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.l {
+  float: left;
+}
+
+.r {
+  float: right;
+}
+
+.login {
+  background: blue;
+}
